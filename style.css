@@ -1,7 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: Perpetua, sans-serif;
+}
+
+.container {
+    width: 100%
+}
+
 body {
-    background-color: teal;
+    background-color: rgb(243, 236, 247);
 }
 
 h1 {
-    color: azure;
+    color: rgb(36, 37, 37);
+    font-size: 32px;
+}
+
+h3 {
+    color: rgb(119, 118, 120);
+}
+
+h5 {
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+    gap: 13em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/*https://speckyboy.com/custom-hover-click-effects-css-javascript/*/
+nav.fill ul li a {
+    transition: all 2s;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+
+.navbar-brand {
+    color: rgb(83, 110, 28);
+    font-size: 22px;
+}
+
+.navbar-brand:hover {
+    color: rgb(165, 231, 99);
+}
+
+a:hover {
+    color: sandybrown;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(83, 110, 28);
+    padding: 0px 20px;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.card {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+  /* Step 1: Common Properties
+  These styles are required to make icons render reliably */
+  .icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+.fa-signs-post {
+    --fa-animation-duration: 3s;
+}
+
+footer {
+    background-color: rgb(245, 249, 240);
+    color: rgb(83, 110, 28);
+}
+
+footer:hover {
+    color:rgb(165, 231, 99);
 }
