@@ -7,8 +7,14 @@
     width: 100%
 }
 
+
+
 body {
-    background-color: rgb(243, 236, 247);
+    background-color: rgb(121, 140, 82);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -17,7 +23,7 @@ h1 {
 }
 
 h3 {
-    color: rgb(119, 118, 120);
+    color: rgb(79, 85, 85);
 }
 
 h5 {
@@ -44,7 +50,7 @@ nav.fill ul li a {
     opacity: 0;
   }
   nav.fill ul li a:hover {
-    color: #fff;
+    color: #ebba8f;
     z-index: 1;
   }
   nav.fill ul li a:hover:after {
@@ -56,7 +62,7 @@ nav.fill ul li a {
   }
 
 .navbar-brand {
-    color: rgb(83, 110, 28);
+    color: rgb(75, 67, 79);
     font-size: 22px;
 }
 
@@ -105,10 +111,27 @@ a {
 }
 
 footer {
-    background-color: rgb(245, 249, 240);
-    color: rgb(83, 110, 28);
+    margin-top: auto;
 }
 
-footer:hover {
+#sticky-footer {
+    background-color: darkslategrey;
+    color: white;
+    font-size: 50;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    
+}
+
+#sticky-footer h2:hover {
+    color:rgb(165, 231, 99);
+}
+
+#sticky-footer i:hover {
+    color:rgb(165, 231, 99);
+}
+
+#sticky-footer small:hover {
     color:rgb(165, 231, 99);
 }
