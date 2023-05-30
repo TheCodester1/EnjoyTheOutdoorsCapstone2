@@ -10,19 +10,19 @@
 
 ### Page Imgs
 <img
-  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\127.0.0.1_5500_ (1).png"
+  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\homePage.png"
   alt="Home Page"
   title="Home Page"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <img
-  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\127.0.0.1_5500_nationalparks.html.png"
+  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\nationalParks.png"
   alt="National Parks Page"
   title="National Parks Page"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <img
-  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\127.0.0.1_5500_mountains.html.png"
+  src="C:\Users\Student\LearnToCode\Capstone\EnjoyTheOutdoorsCapstone2\images\mountainsPage.png"
   alt="Mountains Page"
   title="Mountains Page"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
