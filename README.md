@@ -9,6 +9,11 @@
     - Mountains Search Page w/ dropdown and search functions
 
 ### Page Imgs
+- Page 1
+
+- Page 2
+
+- Page 3
 
 
 ### Code I implemented:
